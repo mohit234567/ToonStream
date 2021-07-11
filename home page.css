@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background: url("images/bg.jpg");
+    /* background-repeat: no-repeat; */
+}
+
+.left {
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.left img {
+    width: 170px;
+}
+
+.mid {
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    /* position: absolute;
+    top: 20px;
+    left: 500px; */
+}
+
+.mid img {
+    width: 100%;
+    height: 170px;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    right: 33px;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: cornsilk;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    /* font-family: 'Baloo Bhai', cursive; */
+}
+
+.btn:hover {
+    color: red;
+}
+
+#login {
+    font-size: 20px;
+}
+
+#signup {
+    font-size: 20px;
+}
+
+.container {
+    margin: 106px 390px;
+    padding: 75px;
+    height: 544px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image {
+    padding: 33px;
+}
+
+#img1 {
+    padding-left: 50px;
+    padding-top: 80px;
+    width: 305px;
+    height: 305px;
+}
+
+#img2 {
+    padding-top: 80px;
+    width: 305px;
+    height: 305px;
+}
+
+#img3 {
+    padding-top: 80px;
+    width: 305px;
+    height: 305px;
+}
+
+#img4 {
+    padding-top: 80px;
+    width: 305px;
+    height: 305px;
+}
+
+.buttons {
+    display: inline-block;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+
+#btn1 {
+    position: absolute;
+    top: 80%;
+    width: 200px;
+    left: 80px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#btn1:hover {
+    color: red;
+}
+
+#btn2 {
+    position: absolute;
+    top: 80%;
+    width: 200px;
+    left: 465px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#btn3 {
+    position: absolute;
+    top: 80%;
+    width: 180px;
+    right: 500px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#btn4 {
+    position: absolute;
+    top: 80%;
+    width: 195px;
+    right: 100px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: red;
+}
